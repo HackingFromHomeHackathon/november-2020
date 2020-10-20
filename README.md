@@ -14,7 +14,7 @@ You can register for the hackathon [on the event website](https://mattermost.com
 
 In order to submit your project please follow these steps:
 
-* Create a Pull Request to this repository adding a Markdown file to the submissions directory.
+* Create a Pull Request to this repository adding a Markdown file to the *submissions* directory.
 * This file is your submission, make sure it contains the following elements:
   * An overview
   * A link to the source code (if available)
