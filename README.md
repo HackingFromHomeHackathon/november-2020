@@ -27,12 +27,11 @@ In order to submit your project please follow these steps:
  
  ### Jitsi
  
- The [Jitsi Meet Handbook](https://jitsi.github.io/handbook/).
+ Here are some links to get you started with the Jitsi ecosystem:
  
- [Web API](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-web) for embedding the Jitsi Meet experience in other web apps.
- 
- [Mobile SDKs](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-mobile) for adding Jitsi Meet capabilities to existing iOS / Android applications.
- 
+* The [Jitsi Meet Handbook](https://jitsi.github.io/handbook/).
+* [Web API](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-web) for embedding the Jitsi Meet experience in other web apps.
+* [Mobile SDKs](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-mobile) for adding Jitsi Meet capabilities to existing iOS / Android applications.
  
  ### Mattermost
  
