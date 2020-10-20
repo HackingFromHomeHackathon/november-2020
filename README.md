@@ -2,7 +2,7 @@
 
 COVID-19 has impacted work across industries, and moved most non-service jobs to be remote. We are now *hacking from* home. The goal of this hackathon is to create new solutions that optimize remote work for everyone.
 
-Participate in the hackathon on November 10 – 17, 2020 for a chance to **win cash prizes totaling $6,000 along with exclusive Mattermost and Jitsi merchandise**.
+Participate in the hackathon on **November 10 – 17, 2020** for a chance to **win cash prizes totaling $6,000 along with exclusive Mattermost and Jitsi merchandise**.
 
 ## Registration
 
@@ -10,7 +10,7 @@ You can register for the hackathon [on the event website](https://mattermost.com
 
 ## Submissions
 
-Submissions will be accepted until November 17th at 12:00 CET.
+**Submissions will be accepted until November 17th at 12:00 CET.**
 
 In order to submit your project please follow these steps:
 
