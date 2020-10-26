@@ -67,7 +67,7 @@ Anything submitted after the due date is not going to be evaluated, except for c
 
 ## Resources
  
-You may join the hackathon's Mattermosty server (TODO) for asking questions / contacting the organization.
+You may join the [hackathon's Mattermosty server](https://hackathon.cloud.mattermost.com/) for asking questions / contacting the organization.
  
 ### Jitsi
  
