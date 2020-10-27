@@ -75,7 +75,9 @@ Here are some links to get you started with the Jitsi ecosystem:
  
 * The [Jitsi Meet Handbook](https://jitsi.github.io/handbook/).
 * [Web API](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-web) for embedding the Jitsi Meet experience in other web apps.
-* [Mobile SDKs](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-mobile) for adding Jitsi Meet capabilities to existing iOS / Android applications.
+* [Mobile guide](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-mobile) for adding Jitsi Meet capabilities to existing iOS / Android applications.
+* [Jitsi Meet mobile SDK samples](https://github.com/jitsi/jitsi-meet-sdk-samples).
+* [Jitsi State of the Union 2020](https://www.youtube.com/watch?v=nHH3WLytuTk).
  
 ### Mattermost
  
