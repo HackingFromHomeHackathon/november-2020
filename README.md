@@ -94,9 +94,9 @@ All qualified submissions will receive a swag kit.
 
 ### Prizes
 
-First place: $3,000 USD + Swag Kit
-Second place: $2,000 USD + Swag Kit
-Third place: $1,000 USD + Swag Kit
+First place: $3,000 USD + Swag Kit  
+Second place: $2,000 USD + Swag Kit  
+Third place: $1,000 USD + Swag Kit  
 
 ### Swag Kit
 
