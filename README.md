@@ -45,6 +45,8 @@ You can see a [sample submission here](https://github.com/mattermost/mattermost-
 
 ## Submission guidelines 
 
+All submissions must comply with our [Terms and Conditions](https://mattermost.com/hackathon-terms-of-service/) and [Code of Conduct](https://handbook.mattermost.com/contributors/contributors/contribution-guidelines#contributor-covenant-code-of-conduct).
+
 ### Qualified submissions (for swag)
 
 1. Submitted to this GitHub project https://github.com/mattermost/mattermost-jitsi-hackathon-nov2020. This entry will be used to review the submission.
