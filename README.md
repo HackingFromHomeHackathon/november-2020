@@ -88,9 +88,18 @@ Here are some links to get you started with the Jitsi ecosystem:
 * [Mattermost RESTful API](https://api.mattermost.com/) for lightweight integrations.
 * [Mattermost integrations directory](https://integrations.mattermost.com/) for sample bots and integrations.
  
-## Swag!
- 
-All qualified submissions will receive some awesome swag!
- 
-TODO: add images.
- 
+## Prizes & Swag!
+
+All qualified submissions will receive a swag kit.
+
+### Prizes
+
+First place: $3,000 USD + Swag Kit
+Second place: $2,000 USD + Swag Kit
+Third place: $1,000 USD + Swag Kit
+
+### Swag Kit
+
+The swag kit includes socks, a sticker sheet, and an exclusive Hacking from Home pen!
+
+![swag](https://i.imgur.com/LGpnFGt.png)
