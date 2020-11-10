@@ -13,9 +13,8 @@ You can register for the hackathon [on the event website](https://mattermost.com
 1. Register for updates at https://mattermost.com/hackfest2020/#registrationCta.
 2. Join Mattermost hackathon platform at [hackathon.cloud.mattermost.com](https://hackathon.cloud.mattermost.com/).
 3. Begin collaborating with others on ideas in Mattermost, and optionally form a team.
-4. Join the hackathon kick-off call on November 10, 2020 (details to be added)
-5. Work on your project with your team until November 17, 2020.
-6. Submit your project [following the steps below](#how-do-i-submit-my-project).
+4. Work on your project with your team until November 17, 2020.
+5. Submit your project [following the steps below](#how-do-i-submit-my-project).
 
 ## How do I submit my project?
 
