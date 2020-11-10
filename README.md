@@ -6,7 +6,7 @@ Participate in the hackathon on **November 10 – 17, 2020** for a chance to **w
 
 ## Registration
 
-You can register for the hackathon [on the event website](https://mattermost.com/hackfest2020/#registrationCta)
+You can register for the hackathon [on the event website](https://mattermost.com/hackfest2020/#registrationCta), and join the Hackathon platform at [hackathon.cloud.mattermost.com](https://hackathon.cloud.mattermost.com/).
 
 ## How do I get started?
 
