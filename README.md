@@ -68,7 +68,7 @@ Anything submitted after the due date is not going to be evaluated, except for c
 
 ## Resources
  
-You may join the [hackathon's Mattermost server](https://hackathon.cloud.mattermost.com/) for asking questions / contacting the organization.
+You may join the [hackathon's Mattermost server](https://hackathon.cloud.mattermost.com/) for asking questions / contacting the organization. 
  
 ### Jitsi
  
@@ -79,6 +79,7 @@ Here are some links to get you started with the Jitsi ecosystem:
 * [Mobile guide](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-mobile) for adding Jitsi Meet capabilities to existing iOS / Android applications.
 * [Jitsi Meet mobile SDK samples](https://github.com/jitsi/jitsi-meet-sdk-samples).
 * [Jitsi State of the Union 2020](https://www.youtube.com/watch?v=nHH3WLytuTk).
+* [Jitsi forum](https://community.jitsi.org/)
  
 ### Mattermost
  
@@ -86,6 +87,24 @@ Here are some links to get you started with the Jitsi ecosystem:
 * [Build a Mattermost plugin](https://developers.mattermost.com/extend/plugins/) with Go and React.
 * [Mattermost RESTful API](https://api.mattermost.com/) for lightweight integrations.
 * [Mattermost integrations directory](https://integrations.mattermost.com/) for sample bots and integrations.
+* [Mattermost handbook](https://handbook.mattermost.com/)
+* [Mattermost forum](https://forum.mattermost.org/)
+ 
+### Experts
+
+Here are some experts (including their areas of expertise) you can reach out to on the Mattermost platform if you have questions. We highly recommend tagging them in the [~Q&A channel](https://hackathon.cloud.mattermost.com/main/channels/qa), so all participants can benefit from the answer.
+ * Nick Misasi (@/nick.misasi, Mattermost)
+    * Javascript/node/react, backend languages like golang, and questions around hosting/ops type work
+ * Sudheer Timmaraju (@/sudheer, Mattermost)
+    * Frontend, React, redux, or using plugin API's -- anything on the webapp side of things
+ * Hossein Ahmadian (@/hossein.ahmadian, Mattermost)
+    * Any questions related to web/server
+ * Shota Gvinepadze (@/shota.gvinepadze, Mattermost)
+    * Any questions relating to Mattermost, speciality is in plugins
+ * Saúl Ibarra Corretgé (@/saghul, Jitsi)
+    * Any questions related to Jitsi
+ * Emily Cook (@/emily, Mattermost)
+    * Any questions about the Hackathon itself
  
 ## Prizes & Swag!
 
