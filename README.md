@@ -48,7 +48,7 @@ All submissions must comply with our [Terms and Conditions](https://mattermost.c
 
 ### Qualified submissions (for swag)
 
-1. Submitted to this GitHub project https://github.com/mattermost/mattermost-jitsi-hackathon-nov2020. This entry will be used to review the submission.
+1. Submitted to this GitHub project (https://github.com/HackingFromHomeHackathon/november-2020). This entry will be used to review the submission.
 2. Demonstration of your work that allows us to easily evaluate the submission.
    - This often includes a brief video (screen capture with voiceover) that gives an overview of the project, the motivation behind it, and how it works to achieve it.
    - We also encourage basic documentation with a screenshot of the solution in action, list of features, and development guide if applicable. A great example is [this README of the GitLab-Mattermost plugin](https://github.com/mattermost/mattermost-plugin-gitlab/blob/master/README.md).
