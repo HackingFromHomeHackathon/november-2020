@@ -1,0 +1,18 @@
+Link to a repository containing your project (e.g. an integration or plugin), or a link to a page to download it for evaluation.
+github: https://github.com/smachaje/LTI_Jitsi_Plugin
+
+Brief summary of your project, including:
+        Problem statement: What is the specific problem you’re solving?
+        Video collaboration in an LMS can be limited by campus licensing, instructor initiated rooms, or time limited interaction.  Sometimes the main conferencing tool on campus suffers an outage.  Jitsi can be a flexible video conversation plugin for academic purposes.
+        
+        Your approach and solution.
+        The LMS LTI plugin can be used with Blackboard Learn or Canvas, or another LMS.  It will create a unique course room in Jitsi.  Most video collaboration rooms are started by the instructor.  This plugin will keep the room open for any students who want to study together, or meet up for a conversation.
+       
+Supporting references, diagrams or demos that depict your solution. 
+        Video of the working solution: https://youtu.be/00OYWWmR4Vk
+        The repo will have setup instructions and screenshots.
+ 
+A link to submit issues and questions, such as a public issue tracker in GitHub.
+    https://github.com/smachaje/LTI_Jitsi_Plugin/issues
+    
+    
