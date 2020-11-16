@@ -30,13 +30,14 @@ The quiz master evaluates the given answers and scores points.
 As a frontend, we utilized [Svelte](https://svelte.dev/).
 For saving the required quiz data (metadata, rounds, questions, teams, scores etc) we developed a [Spring Boot](https://spring.io/projects/spring-boot) backend in Java.
 As a database, we used [PostgreSQL](https://www.postgresql.org/).
-For communication between Svelte UI and Spring backend we created REST API, the swagger documentation is available via: TODO
+For communication between Svelte UI and Spring backend we created REST API, the swagger documentation is available upon request. ![Preview](https://drive.google.com/file/d/1YWKzt-truh231JYsroLjq0SwP_niyCbj/view?usp=sharing) 
 
-Due to the time limitations, we couldn't implement all screen. We designed a few more screens using [Zeplin](https://zeplin.io/).
+Due to the time limitations, we could not implement all screens. We designed a few more screens using [Zeplin](https://zeplin.io/).
 
 ## Features
 * Audio and video communication using JitsiMeetJS API
-* 
+* Collobartive answering of questions
+* Different question types: free text, multiple choise, video / photo questions, google autocomplete or map questions
 
 ## Supporting references
 
@@ -46,7 +47,8 @@ Due to the time limitations, we couldn't implement all screen. We designed a few
 
 ## Colaborators
 
-The main work was done during [Seven Principles](https://7p-mobility.com/de/) AMR Hackathon (13.11. 10:30 AM - 14.11. 10:30 AM)
+The main work was done during [Seven Principles](https://7p-mobility.com/de/) AMR Hackathon (13.11. 10:30 AM - 14.11. 10:30 AM).
+
 The team consists of:
 * Felix Hofschulte
 * Jaqueline Schweigert
