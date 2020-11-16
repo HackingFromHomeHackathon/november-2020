@@ -2,26 +2,21 @@
 
 This is a submission for PubQuiz with Jitsi for the Hacking from Home Hackathon.
 
-## Colaborators
+## Preface
 
-Main work was done during [Seven Principles](https://7p-mobility.com/de/) AMR Hackathon (13.11. 10:30 AM - 14.11. 10:30 AM)
-Team members are:
-* Peter Hennecke
-* Karl Kaminski
-* Michael Hess
-* Saeid Khoshhal
-* Felix Hofschulte
-* Jaqueline Schweigert
+Lately a lot of social interaction got lost due to covid restrictions. 
+Most of the developers are working from home for a long time. Furthermore all social company events are canceled.
+_70 % of employees say friends at work is the most crucial element to a happy working live_ quotes [theuse](https://www.themuse.com/advice/why-having-friends-at-work-is-actually-crucial-to-your-success). 
+Having a good working atmosphere increases personal development, speed of the software developement as well as the commitment to high quality.
 
-## Brief summary of PubQuiz:
+## Our solution: PubQuiz
 
-During covid times a lot of social interaction got lost. All summer / winter parties are canceled and nearly everybody worked from home for a long time. 
 To enhance social interaction between you and your colleagues, we invented a digital form of the offline PubQuiz.
-"A pub quiz is a quiz held in a pub or bar. These events are also called quiz nights, trivia nights, or bar trivia" (see [Wikipedia](https://en.wikipedia.org/wiki/Pub_quiz))
+_A pub quiz is a quiz held in a pub or bar. These events are also called quiz nights, trivia nights, or bar trivia_ (see [Wikipedia](https://en.wikipedia.org/wiki/Pub_quiz))
 
 The pub quiz is the perfect possibilty to get to know your team mates and improve team collobaration. 
 First a quiz master selects categories and creates questions for each category.
-Sample categories might be "Celebrities", "Sports" or "Movies".
+Sample categories might be _Celebrities_, _Sports_ or _Movies_.
 Afterwards each player logs in by providing a name and a quiz identifier. 
 The quiz id is used to create a Jitsi room. 
 When all players arrived, the quiz master finally starts the first round. All team members are split into small teams (up to five members).
@@ -30,7 +25,7 @@ If one player enters the solution, all other players of the sub team can see the
 After each round as well as at the end of the quiz, all players come back to a joined room.
 The quiz master evaluates the given answers and scores points.
 
-## Our solution
+## Our tech stack
 
 As frontend we utilized [Svelte](https://svelte.dev/).
 For saving the required quiz data (metadata, rounds, questions, teams, scores..) we developed a [Spring Boot](https://spring.io/projects/spring-boot) backend in Java.
@@ -39,10 +34,26 @@ For communication between Svelte UI and Spring backend we created REST API, the 
 
 Due to the time limitations, we couldn't implement all screen. We designed a few more screens using [Zeplin](https://zeplin.io/).
 
-## Any supporting references
+## Features
+* Audio and video communication using JitsiMeetJS API
+* 
+
+## Supporting references
+
 * [Screencast/Demo](https://drive.google.com/file/d/1E_FZeNRbj9Godry6lUFcQRXWX60SW2vP/view?usp=sharing)
 * [More sample questions](https://drive.google.com/file/d/1xh-D9TVg_Ylgzcd-mViewL44izbwNP5h/view?usp=sharing)
 * [More screens in Zeplin](https://drive.google.com/file/d/1DReA3QtIJDkgayvCZGN7JhX6j8cGXMz9/view?usp=sharing)
 
+## Colaborators
+
+Main work was done during [Seven Principles](https://7p-mobility.com/de/) AMR Hackathon (13.11. 10:30 AM - 14.11. 10:30 AM)
+The team consists of:
+* Felix Hofschulte
+* Jaqueline Schweigert
+* Karl Kaminski
+* Michael Hess
+* Peter Hennecke
+* Saeid Khoshhal
+
 ## Questions?
-You can send questions to jaqueline.schweigert@7p-group.com
+You can send questions to [jaqueline.schweigert@7p-group.com](mailto:jaqueline.schweigert@7p-group.com)
