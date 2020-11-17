@@ -22,7 +22,7 @@ The quiz id is used to create a Jitsi room.
 When all players arrived, the quiz master finally starts the first round. All team members are split into small teams (up to five members).
 While answering the questions together, they can communicate via Jitsi.
 If one player enters the solution, all other players of the subteam can see the input as well.
-After each round as well as at the end of the quiz, all players come back to a joined room.
+After each round and at the end of the quiz, all players come back to a joined room.
 The quiz master evaluates the given answers and scores points.
 
 ## Our tech stack
@@ -33,6 +33,12 @@ As a database, we used [PostgreSQL](https://www.postgresql.org/).
 For communication between Svelte UI and Spring backend we created REST API, the swagger documentation is available upon request. ![Preview](https://drive.google.com/file/d/1YWKzt-truh231JYsroLjq0SwP_niyCbj/view?usp=sharing) 
 
 Due to the time limitations, we could not implement all screens. We designed a few more screens using [Zeplin](https://zeplin.io/).
+
+## Jitsi integration
+To realize the communication between the players of the quiz the JitsiMeetJS API was used.
+
+* The video integration allows the user to mute and unmute the voice stream.
+* To switch from the lobby to each round and to send the answers from one client to all other clients in the same room, the `sendCommandOnce` and `addCommandListener` methods of the JitsiMeetJS API were used. So there was no other websocket implementation needed in the Spring Boot backend.
 
 ## Features
 * Audio and video communication using JitsiMeetJS API
@@ -59,3 +65,6 @@ The team consists of:
 
 ## Questions?
 You can send questions to [jaqueline.schweigert@7p-group.com](mailto:jaqueline.schweigert@7p-group.com)
+File 1 of 1
+Get a public link|
+Download
