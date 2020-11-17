@@ -38,7 +38,8 @@ Submit your Hackathon project following these steps:
       - Basic documentation with a screenshot of the solution in action, list of features, and development guide if applicable. A great example is [this README of the GitLab-Mattermost plugin](https://github.com/mattermost/mattermost-plugin-gitlab/blob/master/README.md).
 
    4. A link to submit issues and questions, such as a public issue tracker in GitHub.
-4. Submit your changes as a pull request. If other members worked with you on the project, please make sure to include their names in your pull request description, so we can correctly attribute everyone’s work.
+4. Scroll to the bottom of the page, then select **Create a new branch** and click **Propose new file**.
+5. On the next screen, submit your changes as a pull request. If other members worked with you on the project, please make sure to include their names in your pull request description, so we can correctly attribute everyone’s work.
 
 You can see a [sample submission here](https://github.com/mattermost/mattermost-hackathon-nov2019/pull/1).
 
