@@ -14,3 +14,4 @@ When Covid hit various countries in the world, society as a whole shut down and 
 
 ## Facets of Education
 
+When the pandemic hit teachers were forced to scramble to create an online education system overnight with no help from school boards, political authorities or any organization which was geared to support teachers. Google classroom had to be utilized with little or no documentation and teachers just had to figure it out on their own. Parents had to support their children's learning on an ad hoc basis. To date there is still little support for online education even though it is highly likely that students will soon be barred from going to school. Or else, there will be a huge demand to pull students from school and use home schooling completely online.
