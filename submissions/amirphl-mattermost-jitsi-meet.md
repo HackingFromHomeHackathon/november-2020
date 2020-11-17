@@ -1,12 +1,12 @@
 ## mattermost-jitsi-proxy
 
-mattermost-jitsi-proxy is a set of services deployed on as docker containers to connect a Mattermost channel to a Jitsi chat box.
+**mattermost-jitsi-proxy** is a set of services deployed on as docker containers to connect a Mattermost channel to a Jitsi chat box.
 
 ## link to the repository
 [click here](https://github.com/amirphl/mattermost-jitsi-proxy)
 
 ## perquisites
-you need to have a running jitsi meet with at least one Prosody, Jicofo, and Videobridge + Nginx
+you need to have a running Jitsi meet with at least one Prosody, Jicofo, and Videobridge + Nginx
 
 # introduction
 ### problem statement and use case
@@ -60,3 +60,74 @@ messages of the form `/message <message>` in chat box is sent to channel too.
 [architecture](https://drive.google.com/file/d/1lgCk2kBptpfP9QCdLQuy1EbV7RnD7w7V/view?usp=sharing)
 
 ## authentication
+The token is generated and encrypted by **apis service** and will be decrypted by too. No one has set of keys
+(public and private keys) to generate the token, so no one can create a token except that service.
+All tokens expire after 30 minutes, so you need to login again after 30 minutes from the first login to be able to
+send message to the channel while in this case still messages from the channel are sent to chat box (TODO: I have 
+to handle it too, after expiration, no message is allowed to pass from the channel to the chat box and vice versa).
+Because room_id is hardcoded in the token (user has to enter the room_id to get the token), thus no one can connect his
+ room to a channel with someone's else token.
+Also no one can extract the content of token because no one has the key except the service. 
+
+## setup
+- setup Jitsi meet (Prosody, Jicofo, Jvb) on your development server
+- install `python3`
+- install python `requests` package (`pip3 install requests`)
+- clone project form [here](https://github.com/amirphl/mattermost-jitsi-proxy) on your dev server
+- copy `prosody/mod_mattermost_proxy.lua` to `prosody-plugins/` of prosody
+- copy `prosody/send_message.py` to `prosody-plugins/` of prosody
+- change `APIS_URL` variable in `send_message.py` and fill it with your server IP address
+- add `mattermost_proxy` to `modules_enabled` section of your MUC config in Prosody config file
+- restart Prosody
+- add '*' to `ALLOWED_HOSTS` in `mattermost_proxy/settings.py`
+- run `openssl genrsa -out key.pem 2048` to generate RSA private key
+- run `openssl rsa -in key.pem -outform PEM -pubout -out public.pem` to generate RSA public key
+- run `export SIGNING_KEY=`cat public.pem``
+- run `export VERIFYING_KEY=`cat key.pem`
+- run `sudo ufw allow 8000` to open port 8000/tcp so that users could get token
+- run `cp .env.example .env`
+- now fill `.env` file with appropriate values:
+- **SECRET_KEY** : used as the Django secret key
+- **DEBUG** : debug mode for Django
+- **GUNICORN_WORKERS** : number of gunicorn workers
+- **MATTERMOST_API_URL** : your server IP address (users connect to this IP to use Mattermost so it's better 
+to use public IP so people can reach you). This is also IP address of Mattermost endpoint
+- **XMPP_SERVICE_URL** : ex: wss://example.com/xmpp-websocket
+- **XMPP_DOMAIN** : ex: example.com
+- run `docker run --name mattermost-preview -d --publish 8065:8065 --add-host dockerhost:127.0.0.1 mattermost/mattermost-preview` to setup a Mattermost instance
+- run `sudo ufw allow 8065`
+- run `docker-compose up -d --build`
+- to see logs, run `docker logs service_name -f`. fill service_name with a correct value (service names)
+- go to `http://your IP address:8065` and create an account then create a team and a public channel
+- run `curl -d '{"username":"your Mattermost username" , "password":"your Mattermost password", "team_id":"team name", "channel_id":"public channel name", "room_id":"room name"}' -H "Content-Type: application/json" -X POST http://<your IP ex: localhost:8000>/generate-token/ -v` to obtain a token
+- now go to a Jitsi conference and in the chat box type: `/login <your token>`
+- now in the chat box type: `/message hello`
+- go to channel and you will see a `hello` message
+- in the channel type `how are you?`
+- go to Jitsi chat box and now you see a `how are you?` message
+- note: an echo message shows that message is delivered successfully
+
+
+## TODO
+- better exception handling for all parts of code
+- reuse websocket connections in **xmpp client service**
+- handling messages which start by slash (/) in a channel (what happens in this case?)
+- use other Mattermost APIs and integrate with them (ex: kicking out user from channel by API)
+- optimize process termination in **websockets service** (also test right behaviour again)
+- repetitive login commands cause additional overhead by terminating long running websocket process in **websocket server service**
+and querying redis, .... somehow this action must be controlled but sometimes it's necessary, for example, 
+when channel credentials is changed by user and use neet to login again
+- distinguish between post message and reply (customization)
+- using celery to send message from **websockets service** to **xmpp client service** to increase performance
+- using celery to send message from **apis service** to **Mattermost** to increase performance
+- using celery to initiates long running websocket connection from **websockets service** to
+**Mattermost** to increase performance
+- merge **xmpp client service** to **websockets service** and use python xmpp client library instead of
+nodejs xmppjs library
+- perform more control on requests to increase performance in *mod_mattermost_proxy.lua*
+- implement logout method
+- writing unit tests
+- create html page for users to get a token and using nginx to serve it
+- **deny path /api/v4/ of Mattermost for outsiders, only services are allowed to use it** 
+- add version for requirements.txt
+
