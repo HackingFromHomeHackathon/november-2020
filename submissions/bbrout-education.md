@@ -43,3 +43,20 @@ The greatest need to provide services to other teachers is in documentation and 
 
 The classroom environment may change from the present system to families hiring teachers in online programs. An example may be that a teacher would have three or four families as client families and teach all of their children, or adults, in conjunction with other teachers. This may be a far more successful education model.
 
+## Monetizing
+
+Monetizing online classrooms to empower teachers to teach and students to learn can take many different paths. And probably will. There is a need to organize, manage and market helping teachers with online classrooms and parents with home schooling. This requires a business plan and people to get the word out to teachers of what is available to them. Also, parents and adults need to find teachers for home schooling projects.
+
+It may also be possible that monetization of online education with teachers in support could have rewards for useful projects. There could be some developments that have a direct impact on innovation and the humanities and can themselves be monetized.
+
+Another idea is that there could be some tokenization of online education.
+
+## Work to be Done
+
+The Jitsi platform has advantages to being used in the field of education. It is easy to log into a meeting and a number of classrooms can be going on at the same time. Activity logging may need to be improved. 
+
+Documentation and video instruction is needed. Clear instructions and hand-holding will be necessary for teachers and teachers need to know how to hand-hold students. Anything that helps here is a huge bonus.
+
+Collaboration needs to be organized and encouraged. This takes people to do this.
+
+People are needed to handle marketting and getting the word out.
