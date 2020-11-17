@@ -4,6 +4,8 @@
 
 Project Morphling builds on top of [Jitsi Meet] and [Spot] to provide a simple and unified way for having meetings on the largest screen in the house.
 
+**NOTE:** This submissions does not qualify for the cash prizes as Titus and I work for 8x8, Inc.
+
 <hr />
 
 [Spot] is a physical room system for [Jitsi Meet], but it requires a specific application to run on a desktop computer hooked up to the TV, or at least a browser. Then a remote app is needed to control it. Since there is already a Jitsi Meet application for having meetings on mobile devices, it only makes sense to unify all these into a single app: the Jitsi Meet app.
