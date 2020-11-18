@@ -107,6 +107,8 @@ to use public IP so people can reach you). This is also IP address of Mattermost
 - go to Jitsi chat box and now you see a `how are you?` message
 - note: an echo message shows that message is delivered successfully
 
+# Demo
+https://drive.google.com/file/d/1LT07fON5XQY_LfKWnLgybpQYc2kMEaSW/view?usp=sharing
 
 ## TODO
 - better exception handling for all parts of code
