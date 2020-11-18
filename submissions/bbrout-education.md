@@ -73,7 +73,7 @@ In this scenario, let us say there is a group of people who wish to grow buffalo
 
 ### Scenario 2: Song Writing
 
-In this scenario a song writer takes courses and learns from from a song-writing master. The writer learns and writes songs in collaboration with others in the song-writing school. The songs are sold by the school and the song writer becomes a song-writing master and teacher. This process is similar to apprenticeship programs and guilds.
+In this scenario a song writer takes courses and learns from from a song-writing master. The writer learns and writes songs in collaboration with others in the song-writing school. The songs are sold by the school and student. The song writer becomes a song-writing master and teacher. This process is similar to apprenticeship programs and guilds.
 
 The above two scenarios show examples of how to "hook" education back into a productive and decentralized economic system. It may be possible to tokenize such systems or to have the government support it and tax it.
 
