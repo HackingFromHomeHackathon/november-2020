@@ -60,3 +60,21 @@ Documentation and video instruction is needed. Clear instructions and hand-holdi
 Collaboration needs to be organized and encouraged. This takes people to do this.
 
 People are needed to handle marketting and getting the word out.
+
+## Education as an Economic Model
+
+If the wealth of a society is not redistributed to the lowest echelon of society, the society will go broke. The redistribution of wealth in western capitalism is through repeated economic collapse. The failure of capitalism to sustain itself in times of crisis is the result of the members of the economic system retaining wealth at all costs and not redistributing it. This is the result of creating an economic unstable equilibrium.
+
+During ancient times, about 10% of the population were the elite and unemployable and about 90% of the population provided food. During the period of the industrial revolution, only about 10% of the people were required to grow enough food for the rest of the population. This left 80% of the population who were trained to "make stuff" or manufacture and provide goods and services for the population. However, with mechanization, about 10% of the people can make enough stuff and provide services for the rest of the population. This now leaves 70% of the population in a state of being non-productive. This becomes even more severe during a pandemic. A proposal would be to hire this 70% and pay them to learn stuff and consider that productive. However, for such an economic system to work, this 70% would have to be actually productive. The education has to feed back into either growing stuff or making stuff. 
+
+### Scenario 1: Buffalo
+
+In this scenario, let us say there is a group of people who wish to grow buffalo and monetize each buffalo with a 20% annual production of buffalo. A school of buffalo is established in which students are paid to study everything there is about buffalo. This includes poetry of buffalo, history of buffalo, songs and art of buffalo, biology and physics of buffalo and the entire cirriculum of reading, writing and mathematics about buffalo. In a very short time, the group of people are going to have a lot of very healthy buffalo and the students can gain accreditation for their studies.
+
+### Scenario 2: Song Writing
+
+In this scenario a song writer takes courses and learns from from a song-writing master. The writer learns and writes songs in collaboration with others in the song-writing school. The songs are sold by the school and the song writer becomes a song-writing master and teacher. This process is similar to apprenticeship programs and guilds.
+
+The above two scenarios show examples of how to "hook" education back into a productive and decentralized economic system. It may be possible to tokenize such systems or to have the government support it and tax it.
+
+
