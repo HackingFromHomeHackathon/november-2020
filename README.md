@@ -121,4 +121,4 @@ Third place: $1,000 USD + Swag Kit
 
 The swag kit includes socks, a sticker sheet, and an exclusive Hacking from Home pen!
 
-![swag](https://i.imgur.com/29c6NJ3.png)
+![image](https://user-images.githubusercontent.com/13119842/99966165-ea3fe400-2d63-11eb-8876-f3d097f0ee84.png)
